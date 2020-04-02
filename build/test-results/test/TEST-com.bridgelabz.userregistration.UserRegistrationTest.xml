@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.userregistration.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-02T04:16:14" hostname="Ubuntu-RajKush" time="0.001">
+<testsuite name="com.bridgelabz.userregistration.UserRegistrationTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-04-02T04:25:26" hostname="Ubuntu-RajKush" time="0.004">
   <properties/>
-  <testcase name="givenValidPasswordRule2_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenValidPasswordAsPerRule2_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenValidMobileNumber_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenValidEmailId_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenValidPasswordAsPerRule1_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenValidFirstName_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenValidLastName_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenValidPasswordAsPerRule3_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
