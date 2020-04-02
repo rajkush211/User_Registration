@@ -18,4 +18,11 @@ public class UserRegistrationTest {
         boolean result = userRegistration.checkLastName("Kush");
         Assert.assertTrue(result);
     }
+
+    @Test
+    public void givenValidEmailId_ShouldReturnTrue() {
+        UserRegistration userRegistration = new UserRegistration();
+        boolean result = userRegistration.checkEmailId("rajkush211.rk@gmail.com");
+        Assert.assertTrue(result);
+    }
 }
