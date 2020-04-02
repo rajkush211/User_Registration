@@ -36,7 +36,7 @@ public class UserRegistrationTest {
     @Test
     public void givenValidPasswordAsPerRule1_ShouldReturnTrue() {
         UserRegistration userRegistration = new UserRegistration();
-        boolean result = userRegistration.passwordPattern("DabAc1234@#");
+        boolean result = userRegistration.passwordPattern("Dab#Ac11234");
         Assert.assertTrue(result);
     }
 
