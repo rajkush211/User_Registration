@@ -34,9 +34,16 @@ public class UserRegistrationTest {
     }
 
     @Test
-    public void givenValidPassword_ShouldReturnTrue() {
+    public void givenValidPasswordRule1_ShouldReturnTrue() {
         UserRegistration userRegistration = new UserRegistration();
-        boolean result = userRegistration.passwordPattern("abcv1234@#");
+        boolean result = userRegistration.passwordPattern("abc1234@#");
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void givenValidPasswordRule2_ShouldReturnTrue() {
+        UserRegistration userRegistration = new UserRegistration();
+        boolean result = userRegistration.passwordPattern("bDcddr#Ad3s");
         Assert.assertTrue(result);
     }
 }

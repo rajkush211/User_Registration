@@ -6,7 +6,7 @@ public class UserRegistration {
     public String namePattern = "^[A-Z][a-z]{2,}$";
     public String emailIdPattern = "^\\w+([_+.-]\\w+)?@\\w+.[a-zA-Z]{2,3}([.][a-zA-Z]{2})?$";
     public String mobileNumberPattern = "^[1-9]{2}\\s[1-9][0-9]{9}$";
-    public String passwordPattern = ".{8,}";
+    public String passwordPattern = "^(?=.*[A-Z]).{8,}$";
 
     public boolean checkFirstName(String firstName) {
         boolean result = firstName.matches(namePattern);

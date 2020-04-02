@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.userregistration.UserRegistrationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-02T03:56:38" hostname="Ubuntu-RajKush" time="0.003">
+<testsuite name="com.bridgelabz.userregistration.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-02T04:16:14" hostname="Ubuntu-RajKush" time="0.001">
   <properties/>
-  <testcase name="givenValidMobileNumber_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="givenValidEmailId_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
-  <testcase name="givenValidPassword_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenValidFirstName_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenValidLastName_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenValidPasswordRule2_ShouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
