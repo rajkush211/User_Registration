@@ -5,6 +5,7 @@ public class UserRegistration {
 
     public String namePattern = "^[A-Z][a-z]{2,}$";
     public String emailIdPattern = "^\\w+([_+.-]\\w+)?@\\w+.[a-zA-Z]{2,3}([.][a-zA-Z]{2})?$";
+    public String mobileNumberPattern = "^[1-9]{2}\\s[1-9][0-9]{9}";
 
     public boolean checkFirstName(String firstName) {
         boolean result = firstName.matches(namePattern);
@@ -18,6 +19,11 @@ public class UserRegistration {
 
     public boolean checkEmailId(String emailId) {
         boolean result = emailId.matches(emailIdPattern);
+        return result;
+    }
+
+    public boolean checkMobileNumber(String mobileNumber) {
+        boolean result = mobileNumber.matches(mobileNumberPattern);
         return result;
     }
 }
