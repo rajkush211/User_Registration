@@ -2,10 +2,15 @@ package com.bridgelabz.userregistration;
 
 public class UserRegistration {
 
-    String firstNamePattern = "^[A-Z][a-z]{2,}$";
+    public String namePattern = "^[A-Z][a-z]{2,}$";
 
     public boolean checkFirstName(String firstName) {
-        boolean result = firstName.matches(firstNamePattern);
+        boolean result = firstName.matches(namePattern);
+        return result;
+    }
+
+    public boolean checkLastName(String lastName) {
+        boolean result = lastName.matches(namePattern);
         return result;
     }
 }
